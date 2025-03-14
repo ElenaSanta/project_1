@@ -1,0 +1,81 @@
+.body {
+   box-sizing: border-box;
+
+   background-color: beige;
+   text-align: center;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+}
+
+.main {
+   display: block;
+   width: 100%;
+   height: auto;
+   padding: 50px;
+}
+
+.footer {
+   display: block;
+   width: 100%;   
+   background-color: rgb(63, 112, 15);
+   color: beige;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: left;
+   padding: 10px;
+}
+
+.footer a {
+   color: beige;
+}
+
+.style {
+   color: black;
+   text-align: left;
+   font-size: 130%;
+}
+
+.h1 {
+   font-size: 50px;
+}
+
+
+
+.row1, .row2 {
+   max-width: 100%;
+   display: flex;
+}
+
+.col1, .col2, .col3 {
+   padding: 25px;
+   max-width: 33%;
+}
+
+.col2 {
+   align-self: center;
+}
+
+.col2 img {
+   height: 100%;
+   width: 80%;
+}
+
+.col3 img {
+   height: 100%;
+   width: 50%;
+}
+
+.col4 img{
+   height: 100%;
+   width: 50%;
+}
+
+.col5 img{
+   height: 100%;
+   width: 100%;
+}
+
+.col6 img{
+   height: 100%;
+   width: 80%;
+}
